@@ -1,0 +1,336 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: black;
+    padding: 30px;
+    position: fixed;
+    width: 100%;
+    height: 10px;
+    z-index: 9999;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 17px;
+    font-family: arial;
+    margin-right: 10px;
+    padding-left: 25px;
+    color: orange;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+nav ul li a:hover{
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    color: orange;
+    transition: 300ms;
+    border-radius: 10px;
+}
+.img video{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    object-position: center;
+    z-index: 2;
+}
+.home{
+    position: relative;
+    width:100%;
+    height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.home::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.597);
+    z-index: 3;
+}
+.content{
+    z-index: 9998;
+    position: absolute;
+    bottom: 100px;
+    color: white;
+    margin-bottom: 100px;
+    margin-left: 150px;
+    line-height: 80px;
+}
+.content h1{
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+.content a{
+    text-decoration: none;
+    background-color: orangered;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bolder;
+    font-family: arial;
+}
+.content a:hover{
+    background-color: tomato;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    transition: 300ms;
+}
+.content p{
+    line-height: 1;
+}
+.line{
+    border: solid 3px orange;
+    width: 380px;
+    margin-bottom: 30px;
+}
+.next-tour{
+    margin-left: 650px;
+    margin-top: 100px;
+    font-family: verdana;
+}
+.container-2{
+    width: 300px;
+    margin-top: 100px;
+    margin-bottom: 200px;
+    margin-left: 100px;
+    display: flex;
+}
+.tour-1{
+    height: 500px;
+    width: 450px;
+    padding: 50px;
+    box-shadow: 0 0 10px;
+    text-align: center;
+    margin-left: 100px;
+    border-radius: 10px;
+}
+.tour-1 h3{
+    font-family: arial;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.tour-1 p{
+    font-family: arial;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.tour-1 a{
+    text-decoration: none;
+    background-color: orangered;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.tour-1 a:hover{
+    background-color: tomato;
+    padding: 15px;
+    border-radius: 10px;
+    color: white;
+}
+.container-2 h1{
+    font-family: verdana;
+    font-weight: bolder;
+}
+.tour-1 img{
+    width: 400px;
+    object-fit: cover;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+.tour-2{
+    height: 500px;
+    width: 450px;
+    padding: 50px;
+    box-shadow: 0 0 10px;
+    text-align: center;
+    margin-left: 100px;
+    border-radius: 10px;
+
+}
+.tour-2 h3{
+    font-family: arial;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.tour-2 p{
+    font-family: arial;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.tour-2 a{
+    text-decoration: none;
+    background-color: orangered;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.tour-2 a:hover{
+    background-color: tomato;
+    padding: 15px;
+    border-radius: 10px;
+    color: white;
+}
+.tour-2 img{
+    width: 400px;
+    object-fit: cover;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+.container-3 img{   
+    width: 100% ;
+    height: 50vh;
+    z-index: 3;
+    object-fit: cover;
+    margin-top: 50px;
+    position: relative;
+}
+.container-3 h1{
+    z-index: 9999;
+    color: white;
+    position: absolute;
+}
+.img-1{
+    height: 500px;
+    width: 450px;
+    padding: 50px;
+    box-shadow: 0 0 10px;
+    text-align: center;
+    margin-left: 100px;
+    border-radius: 10px;
+
+}
+.img-1 h1{
+    font-family: arial;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.img-1 p{
+    font-family: arial;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.img-1 img{
+    width: 400px;
+    object-fit: cover;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+.img-2{
+    height: 500px;
+    width: 450px;
+    padding: 50px;
+    box-shadow: 0 0 10px;
+    text-align: center;
+    margin-left: 100px;
+    border-radius: 10px;
+
+}
+.img-2 h1{
+    font-family: arial;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.img-2 p{
+    font-family: arial;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.img-2 img{
+    width: 400px;
+    object-fit: cover;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+.gallery{
+    font-family: verdana;
+    margin-left: 680px;
+    margin-bottom: 100px;
+}
+.container-4{
+    width: 300px;
+    margin-top: 100px;
+    margin-bottom: 200px;
+    margin-left: 100px;
+    display: flex;
+}
+footer{
+    width: 100%;
+    height: 30vh;
+    background-color: black;
+    padding-top: 30px;
+}
+.footer{
+    display: flex;
+}
+footer h3{
+    color: white;
+    font-family: verdana;
+    text-transform: uppercase;
+    text-align: center;
+    padding-bottom: 10px;
+
+}
+footer .desk{
+    color: grey;
+    text-align: center;
+    font-family: arial;;
+    padding-left: 250px;
+    padding-right: 80px;
+}
+footer .desk p{
+    font-size: 15px;
+}
+footer .link{
+    padding-right: 80px;
+}
+footer .link ul{
+    display: flex;
+}
+footer .link a{
+    text-decoration: none;
+    font-size: 15px;
+    font-family: arial;
+    margin-right: 10px;
+    padding-left: 5px;
+    color: grey;
+    text-transform: uppercase;
+}
+footer .serve{
+    color: white;
+    font-family: arial;
+}
+footer .serve p{
+    line-height: 25px;
+    color: grey;
+}
+.bottom p{
+    color: grey;
+    margin-top: 30px;
+    text-align: center;
+}
+.liner{
+    margin-top: 50px;
+    border: 1px solid grey;
+}
